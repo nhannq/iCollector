@@ -3,7 +3,6 @@
 ////  iCollector
 ////
 ////  Created by Nhan Nguyen on 3/19/15.
-////  Copyright (c) 2015 University of Connecticut. All rights reserved.
 ////
 //
 //import SystemConfiguration

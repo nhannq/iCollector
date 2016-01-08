@@ -13,6 +13,29 @@
 		673DE8E31AB8DCC000CF7FEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 673DE8E21AB8DCC000CF7FEA /* Images.xcassets */; };
 		673DE8E61AB8DCC000CF7FEA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 673DE8E41AB8DCC000CF7FEA /* LaunchScreen.xib */; };
 		673DE8F21AB8DCC100CF7FEA /* iCollectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673DE8F11AB8DCC100CF7FEA /* iCollectorTests.swift */; };
+		673DE9041AB8DD7300CF7FEA /* ActivityCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673DE8FB1AB8DD7200CF7FEA /* ActivityCollector.swift */; };
+		673DE9051AB8DD7300CF7FEA /* BackgroundTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673DE8FC1AB8DD7200CF7FEA /* BackgroundTaskManager.swift */; };
+		673DE9061AB8DD7300CF7FEA /* CollectorInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673DE8FD1AB8DD7200CF7FEA /* CollectorInformation.swift */; };
+		673DE9071AB8DD7300CF7FEA /* InformationSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673DE8FE1AB8DD7200CF7FEA /* InformationSender.swift */; };
+		673DE9081AB8DD7300CF7FEA /* LocationCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673DE8FF1AB8DD7200CF7FEA /* LocationCollector.swift */; };
+		673DE9091AB8DD7300CF7FEA /* LocationShareModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673DE9001AB8DD7200CF7FEA /* LocationShareModel.swift */; };
+		673DE90A1AB8DD7300CF7FEA /* SignificantChangeLocationCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673DE9011AB8DD7200CF7FEA /* SignificantChangeLocationCollector.swift */; };
+		673DE90B1AB8DD7300CF7FEA /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673DE9021AB8DD7200CF7FEA /* SwiftyJSON.swift */; };
+		673DE90C1AB8DD7300CF7FEA /* todo-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673DE9031AB8DD7200CF7FEA /* todo-list.swift */; };
+		673DE90E1ABA0CBA00CF7FEA /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673DE90D1ABA0CBA00CF7FEA /* Util.swift */; };
+		6762590C1ABA2A8000DB5EC3 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6762590B1ABA2A8000DB5EC3 /* Configuration.swift */; };
+		6787D18D1AE86E92005A9CA5 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787D18C1AE86E92005A9CA5 /* NetworkMonitor.swift */; };
+		678E2B381ABBD2B900B2C6B4 /* EnvData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678E2B371ABBD2B900B2C6B4 /* EnvData.swift */; };
+		678E2B3A1ABBD47200B2C6B4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678E2B391ABBD47200B2C6B4 /* SystemConfiguration.framework */; };
+		678E2B3C1ABBD47A00B2C6B4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678E2B3B1ABBD47A00B2C6B4 /* CoreLocation.framework */; };
+		67C078791AD8C7F400A706AD /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C078781AD8C7F400A706AD /* ImageIO.framework */; };
+		67C0787B1AD8C80400A706AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C0787A1AD8C80400A706AD /* Foundation.framework */; };
+		67C0787D1AD8C81500A706AD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C0787C1AD8C81500A706AD /* libz.dylib */; };
+		67CFC6C71ADA30A900772E33 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CFC6C61ADA30A900772E33 /* Reachability.swift */; };
+		67CFC6E31ADACA8600772E33 /* libzipzap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67CFC6E21ADACA8500772E33 /* libzipzap.a */; };
+		67DE7DE01AF1E2C1006DCD4F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67DE7DDF1AF1E2C1006DCD4F /* CoreTelephony.framework */; };
+		67DE7DE21AF1E472006DCD4F /* CallTimeCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DE7DE11AF1E472006DCD4F /* CallTimeCollector.swift */; };
+		67E7F6631ACC845E0060A7A2 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E7F6621ACC845E0060A7A2 /* Alamofire.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +59,35 @@
 		673DE8EB1AB8DCC100CF7FEA /* iCollectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCollectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		673DE8F01AB8DCC100CF7FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		673DE8F11AB8DCC100CF7FEA /* iCollectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCollectorTests.swift; sourceTree = "<group>"; };
+		673DE8FB1AB8DD7200CF7FEA /* ActivityCollector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityCollector.swift; sourceTree = "<group>"; };
+		673DE8FC1AB8DD7200CF7FEA /* BackgroundTaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundTaskManager.swift; sourceTree = "<group>"; };
+		673DE8FD1AB8DD7200CF7FEA /* CollectorInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectorInformation.swift; sourceTree = "<group>"; };
+		673DE8FE1AB8DD7200CF7FEA /* InformationSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationSender.swift; sourceTree = "<group>"; };
+		673DE8FF1AB8DD7200CF7FEA /* LocationCollector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationCollector.swift; sourceTree = "<group>"; };
+		673DE9001AB8DD7200CF7FEA /* LocationShareModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationShareModel.swift; sourceTree = "<group>"; };
+		673DE9011AB8DD7200CF7FEA /* SignificantChangeLocationCollector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignificantChangeLocationCollector.swift; sourceTree = "<group>"; };
+		673DE9021AB8DD7200CF7FEA /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		673DE9031AB8DD7200CF7FEA /* todo-list.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "todo-list.swift"; sourceTree = "<group>"; };
+		673DE90D1ABA0CBA00CF7FEA /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		6762590B1ABA2A8000DB5EC3 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		6787D18C1AE86E92005A9CA5 /* NetworkMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		678E2B371ABBD2B900B2C6B4 /* EnvData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvData.swift; sourceTree = "<group>"; };
+		678E2B391ABBD47200B2C6B4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		678E2B3B1ABBD47A00B2C6B4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		67C078781AD8C7F400A706AD /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		67C0787A1AD8C80400A706AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		67C0787C1AD8C81500A706AD /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		67C078A61AD8D66200A706AD /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Libraries/Bridging-Header.h"; sourceTree = "<group>"; };
+		67CFC6C61ADA30A900772E33 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		67CFC6E21ADACA8500772E33 /* libzipzap.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzipzap.a; path = Libraries/libzipzap.a; sourceTree = "<group>"; };
+		67CFC6E41ADACA9300772E33 /* zipzap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zipzap.h; path = Libraries/zipzap/zipzap.h; sourceTree = "<group>"; };
+		67CFC6E51ADACA9300772E33 /* ZZArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZZArchive.h; path = Libraries/zipzap/ZZArchive.h; sourceTree = "<group>"; };
+		67CFC6E61ADACA9300772E33 /* ZZArchiveEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZZArchiveEntry.h; path = Libraries/zipzap/ZZArchiveEntry.h; sourceTree = "<group>"; };
+		67CFC6E71ADACA9300772E33 /* ZZConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZZConstants.h; path = Libraries/zipzap/ZZConstants.h; sourceTree = "<group>"; };
+		67CFC6E81ADACA9300772E33 /* ZZError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZZError.h; path = Libraries/zipzap/ZZError.h; sourceTree = "<group>"; };
+		67DE7DDF1AF1E2C1006DCD4F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		67DE7DE11AF1E472006DCD4F /* CallTimeCollector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallTimeCollector.swift; sourceTree = "<group>"; };
+		67E7F6621ACC845E0060A7A2 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +95,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67DE7DE01AF1E2C1006DCD4F /* CoreTelephony.framework in Frameworks */,
+				67C0787D1AD8C81500A706AD /* libz.dylib in Frameworks */,
+				67C0787B1AD8C80400A706AD /* Foundation.framework in Frameworks */,
+				67C078791AD8C7F400A706AD /* ImageIO.framework in Frameworks */,
+				67CFC6E31ADACA8600772E33 /* libzipzap.a in Frameworks */,
+				678E2B3C1ABBD47A00B2C6B4 /* CoreLocation.framework in Frameworks */,
+				678E2B3A1ABBD47200B2C6B4 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +118,19 @@
 		673DE8CD1AB8DCC000CF7FEA = {
 			isa = PBXGroup;
 			children = (
+				67DE7DDF1AF1E2C1006DCD4F /* CoreTelephony.framework */,
+				67CFC6E41ADACA9300772E33 /* zipzap.h */,
+				67CFC6E51ADACA9300772E33 /* ZZArchive.h */,
+				67CFC6E61ADACA9300772E33 /* ZZArchiveEntry.h */,
+				67CFC6E71ADACA9300772E33 /* ZZConstants.h */,
+				67CFC6E81ADACA9300772E33 /* ZZError.h */,
+				67CFC6E21ADACA8500772E33 /* libzipzap.a */,
+				67C078A61AD8D66200A706AD /* Bridging-Header.h */,
+				67C0787C1AD8C81500A706AD /* libz.dylib */,
+				67C0787A1AD8C80400A706AD /* Foundation.framework */,
+				67C078781AD8C7F400A706AD /* ImageIO.framework */,
+				678E2B3B1ABBD47A00B2C6B4 /* CoreLocation.framework */,
+				678E2B391ABBD47200B2C6B4 /* SystemConfiguration.framework */,
 				673DE8D81AB8DCC000CF7FEA /* iCollector */,
 				673DE8EE1AB8DCC100CF7FEA /* iCollectorTests */,
 				673DE8D71AB8DCC000CF7FEA /* Products */,
@@ -79,9 +151,25 @@
 			children = (
 				673DE8DB1AB8DCC000CF7FEA /* AppDelegate.swift */,
 				673DE8DD1AB8DCC000CF7FEA /* ViewController.swift */,
+				673DE8FB1AB8DD7200CF7FEA /* ActivityCollector.swift */,
+				673DE9011AB8DD7200CF7FEA /* SignificantChangeLocationCollector.swift */,
+				67DE7DE11AF1E472006DCD4F /* CallTimeCollector.swift */,
+				673DE8FF1AB8DD7200CF7FEA /* LocationCollector.swift */,
+				673DE9001AB8DD7200CF7FEA /* LocationShareModel.swift */,
+				673DE8FC1AB8DD7200CF7FEA /* BackgroundTaskManager.swift */,
+				673DE8FE1AB8DD7200CF7FEA /* InformationSender.swift */,
+				673DE8FD1AB8DD7200CF7FEA /* CollectorInformation.swift */,
+				6762590B1ABA2A8000DB5EC3 /* Configuration.swift */,
+				673DE90D1ABA0CBA00CF7FEA /* Util.swift */,
+				678E2B371ABBD2B900B2C6B4 /* EnvData.swift */,
+				67E7F6621ACC845E0060A7A2 /* Alamofire.swift */,
+				673DE9021AB8DD7200CF7FEA /* SwiftyJSON.swift */,
+				67CFC6C61ADA30A900772E33 /* Reachability.swift */,
+				6787D18C1AE86E92005A9CA5 /* NetworkMonitor.swift */,
 				673DE8DF1AB8DCC000CF7FEA /* Main.storyboard */,
 				673DE8E21AB8DCC000CF7FEA /* Images.xcassets */,
 				673DE8E41AB8DCC000CF7FEA /* LaunchScreen.xib */,
+				673DE9031AB8DD7200CF7FEA /* todo-list.swift */,
 				673DE8D91AB8DCC000CF7FEA /* Supporting Files */,
 			);
 			path = iCollector;
@@ -161,6 +249,12 @@
 				TargetAttributes = {
 					673DE8D51AB8DCC000CF7FEA = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = M5NDX4BH7W;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					673DE8EA1AB8DCC100CF7FEA = {
 						CreatedOnToolsVersion = 6.2;
@@ -212,7 +306,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				673DE9091AB8DD7300CF7FEA /* LocationShareModel.swift in Sources */,
+				673DE9051AB8DD7300CF7FEA /* BackgroundTaskManager.swift in Sources */,
+				673DE90C1AB8DD7300CF7FEA /* todo-list.swift in Sources */,
 				673DE8DE1AB8DCC000CF7FEA /* ViewController.swift in Sources */,
+				673DE90B1AB8DD7300CF7FEA /* SwiftyJSON.swift in Sources */,
+				673DE9061AB8DD7300CF7FEA /* CollectorInformation.swift in Sources */,
+				67E7F6631ACC845E0060A7A2 /* Alamofire.swift in Sources */,
+				673DE90A1AB8DD7300CF7FEA /* SignificantChangeLocationCollector.swift in Sources */,
+				6787D18D1AE86E92005A9CA5 /* NetworkMonitor.swift in Sources */,
+				678E2B381ABBD2B900B2C6B4 /* EnvData.swift in Sources */,
+				6762590C1ABA2A8000DB5EC3 /* Configuration.swift in Sources */,
+				673DE90E1ABA0CBA00CF7FEA /* Util.swift in Sources */,
+				67DE7DE21AF1E472006DCD4F /* CallTimeCollector.swift in Sources */,
+				673DE9071AB8DD7300CF7FEA /* InformationSender.swift in Sources */,
+				673DE9041AB8DD7300CF7FEA /* ActivityCollector.swift in Sources */,
+				673DE9081AB8DD7300CF7FEA /* LocationCollector.swift in Sources */,
+				67CFC6C71ADA30A900772E33 /* Reachability.swift in Sources */,
 				673DE8DC1AB8DCC000CF7FEA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +382,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nhan Nguyen (52KC63XFWZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nhan Nguyen (52KC63XFWZ)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -315,7 +426,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nhan Nguyen (52KC63XFWZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nhan Nguyen (52KC63XFWZ)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -338,9 +450,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = iCollector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Libraries/Bridging-Header.h";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -348,9 +472,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = iCollector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Libraries/Bridging-Header.h";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -407,6 +543,7 @@
 				673DE8F71AB8DCC100CF7FEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		673DE8F81AB8DCC100CF7FEA /* Build configuration list for PBXNativeTarget "iCollectorTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +552,7 @@
 				673DE8FA1AB8DCC100CF7FEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
